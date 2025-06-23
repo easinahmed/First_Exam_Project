@@ -7,10 +7,148 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Helvetica Neue', sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #191919;
+    
+}
+
+.container{
+    margin: 0 auto;
+    width: 1392px;
 }
 
 
 
 /* =========================
     All Common style end  
+============================= */
+
+
+/* =========================
+    Nav style start 
+============================= */
+
+
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.nav_container .txt .logo{
+    width: 82px;
+    margin-right: 24px;
+}
+.nav_container .txt .logo img{
+    width: 100%;
+}
+
+.nav_container .txt .menu ul{
+    display: flex;
+    gap: 26px;
+}
+
+.nav_container .txt .menu ul li a{
+    font-size: 15px;
+    font-weight: 500;
+    line-height 1.4 ;
+}
+
+.nav_container .txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.nav_container .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_container .btn button{
+    padding: 10px 21px;
+    border-radius: 1000px;
+    border: none;
+}
+
+.nav_container .btn  .login {
+    margin-right: 8px;
+    background: #F5F8FF;
+    color: #0057FF;
+}
+
+.nav_container .btn  .signup {
+    margin-right: 32px;
+    background: #0057FF;
+    color: #F5F8FF;
+}
+
+.nav_container .btn  .freetrial{
+    margin-right: 15px;
+    text-align: center;
+    
+}
+.nav_container .btn  .freetrial img{
+   width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nav_container .btn .adobe_logo{
+    width: 60px;
+}
+.nav_container .btn .adobe_logo img{
+    width: 100%;
+}
+
+nav{
+    padding: 16px 0;
+    border-bottom: 1px solid #ECECEC;
+    
+}
+
+
+
+
+
+/* =========================
+    Nav style end
+============================= */
+
+
+/* =========================
+    Searchbar Style start
+============================= */
+
+.searchbar .searchbar_container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.searchbar .searchbar_container .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:8px;
+
+}
+
+
+
+
+
+/* =========================
+    Searchbar Style end
 ============================= */
