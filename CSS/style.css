@@ -14,6 +14,10 @@ ol {
     list-style: none;
 }
 
+li{
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: #191919;
@@ -74,6 +78,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 .nav_container .btn button {
@@ -83,13 +88,13 @@ a {
 }
 
 .nav_container .btn .login {
-    margin-right: 8px;
+    
     background: #F5F8FF;
     color: #0057FF;
 }
 
 .nav_container .btn .signup {
-    margin-right: 32px;
+    
     background: #0057FF;
     color: #F5F8FF;
 }
@@ -119,6 +124,13 @@ nav {
     padding: 16px 0;
     border-bottom: 1px solid #ECECEC;
 
+}
+
+.nav_container .btn .divider{
+     height: 20px;
+        width: 1px;
+      background-color: #ccc;
+      margin: 0 6px;
 }
 
 
@@ -172,7 +184,7 @@ nav {
     font-weight: 500;
 }
 
-.text {
+ .searchbar_container .text {
     flex: 1;
     padding: 10px 17px;
 }
@@ -213,6 +225,9 @@ nav {
 /* =========================
     Dropdown Style start
 ============================= */
+.dropdown{
+    border-bottom: 1px solid #ECECEC;
+}
 
 .dropdown_container{
     display: flex;
@@ -272,3 +287,190 @@ nav {
 /* =========================
     Dropdown Style end
 ============================= */
+
+
+
+/* =========================
+    Post design Style start
+============================= */
+#post_design{
+    padding: 20px 0;
+
+}
+
+.post_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.post .post_text h3 {
+    font-size: 14px;
+    color: #191919;
+    max-width: 220px;
+    
+}
+.post .post_text p {
+    font-size: 11px;
+    color: #191919;
+    
+}
+
+.post_container .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post_container .post .image{
+    max-width: 333px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.post_container .post  .text .post_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    
+}
+
+
+
+.post_container .post  .text .post_icon .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 11px;
+    
+}
+
+/* =========================
+    Post design Style end
+============================= */
+
+
+
+
+/* =========================
+    Product design Style start
+============================= */
+#creative_cloud{
+    padding: 32px 30px;
+    background: #F2F2F2;
+    margin-bottom: 40px;
+}
+
+.creative_cloud_container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.creative_cloud_container .creative_cloud_text h2{
+    font-size: 19px;
+    line-height: 1.57;
+}
+.creative_cloud_container .creative_cloud_text p{
+    font-size: 14px;
+    max-width: 280px;
+    padding: 4px 0 30px 0;
+    line-height: 1.4;
+}
+
+.creative_cloud_container .creative_cloud_text button{
+    font-size: 13px;
+    background: #0057FF;
+    border: none;
+    border-radius: 1000px;
+    color: #ffffff;
+    padding: 10px 20px;
+    line-height: 1.07;
+}
+
+.creative_cloud_container .creative_cloud_products{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 1050px;
+}
+
+.creative_cloud_container .creative_cloud_products .product_post{
+    max-width: 246px;
+
+}
+
+.creative_cloud_container .creative_cloud_products .product_post .text{
+    margin-top: 28px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 12px;
+}
+
+.creative_cloud_container .creative_cloud_products .product_post .text .product_text h3{
+    font-size: 13px;
+    line-height: 1.38;
+    
+}
+
+.creative_cloud_container .creative_cloud_products .product_post .text .product_text p{
+    font-size: 12px;
+    color: #696969;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+
+/* =========================
+    Product design Style end
+============================= */
+
+
+/* =========================
+    Footer Style start
+============================= */
+
+footer{
+    padding: 10px 0;
+    border-top: 1px solid #ECECEC;
+}
+
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_container .footer_menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer_container .footer_menu ul li a{
+    font-size: 10px;
+    color: #696969;
+    line-height: 1.43;
+}
+
+.footer_container .footer_menu ul .divider{
+     
+      height: 14px;
+      width: 1px;
+      background-color: #ccc;
+      margin: 0 6px;
+
+}
+
+/* =========================
+    Footer Style end
+============================= */
+
